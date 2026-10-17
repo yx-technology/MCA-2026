@@ -4,7 +4,7 @@ Task 1:
 The theme for my dataset is the song Because I Love You by Yoo Jae-Ha.
 Musical score - https://musescore.com/user/16691236/scores/20166805
 Audio recording
-- original song: https://www.youtube.com/watch?v=6O8oM-vPRtY
+- [Original song] (https://www.youtube.com/watch?v=6O8oM-vPRtY)
 - piano version (played by George Harliono): https://www.youtube.com/watch?v=8c08r76j4ls
 - background: https://note.com/fine_plover577/n/nc817ccf065b4?hl=en
 
