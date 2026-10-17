@@ -2,8 +2,8 @@
 
 Task 1:  
 
-Task 2:
+Task 2:  
 Scatter plot
-![alt text](Scatter plot of pitches.png)
+![alt text](scatterplotofpitches.png)
 
 Pitch histogram
