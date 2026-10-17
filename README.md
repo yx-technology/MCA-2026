@@ -1,7 +1,6 @@
 
 # Because I Love You by Yoo Jae-Ha
 
-
 ### Week 1
 Task 1:  
 The theme for my dataset is the song Because I Love You by Yoo Jae-Ha.
