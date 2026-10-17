@@ -1,6 +1,6 @@
 # Week 3
 
-Task 1:
+Task 1:  
 [Verovio - Because I Love You (Yoo Jae-Ha)](verovio.html)
 
 Task 2:  
