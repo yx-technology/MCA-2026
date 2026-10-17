@@ -1,5 +1,5 @@
-
 # Because I Love You by Yoo Jae-Ha
+##### INFOST 4013 Music Curation and Analytics 
 
 ## Contents
 [Week 1: Basics of music data](week-1.md)  
