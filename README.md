@@ -3,7 +3,7 @@
 
 ## Contents
 
-[Week 1: Basics of music data]
+[Week 1: Basics of music data] (week1.md)
 
 ### Week 2
 Task 1: 
