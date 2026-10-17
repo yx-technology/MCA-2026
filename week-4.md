@@ -3,7 +3,8 @@
 Task 1:  
 
 Task 2:  
-Scatter plot
+**Scatter plot**
 ![alt text](scatterplotofpitches.png)
-
-Pitch histogram
+  
+**Pitch histogram**
+![alt text](pitchhistogram.png)
