@@ -3,7 +3,7 @@
 Task 1:
 [Verovio - Because I Love You (Yoo Jae-Ha)](verovio.html)
 
-Task 2:
+Task 2:  
 MusicXML VS MEI  
 1. Key, time signature, and clef: MusicXML labels the items in seperate individual boxes while MEI compresses it into short tags on one line. MusicXML then positions the boxes into the bars, similar to how humans would read a score. Comparatively, MEI places it at the very beginning, dictating the key of the piece for everything else that follows after. Therefore, MusicXML requires the program to read the music to find the keys and clefs whereas it is instantly identifiable in an MEI file.
 2. Notes and chords: Similarly, MusicXML has individual labels detailing the pitch, length, voice, and staff for every single note. MEI shortens the code with tags, where a series of notes played at the same time are nested in a <chord> folder. So MEI avoids repetition when reading through the code while MusicXML has a more lengthy process as it reads from the beginning of the bar again.  
