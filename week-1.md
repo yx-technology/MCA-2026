@@ -1,8 +1,9 @@
 ### Week 1
 
 Task 1:  
-The theme for my dataset is the song Because I Love You by Yoo Jae-Ha.
-Musical score - https://musescore.com/user/16691236/scores/20166805
+The theme for my dataset is the song Because I Love You by Yoo Jae-Ha.  
+
+[Musical score](https://musescore.com/user/16691236/scores/20166805)  
 Audio recording
 - [Original song](https://www.youtube.com/watch?v=6O8oM-vPRtY)
 - [Piano version (played by George Harliono)](https://www.youtube.com/watch?v=8c08r76j4ls)
