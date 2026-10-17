@@ -2,8 +2,7 @@
 # Because I Love You by Yoo Jae-Ha
 
 ## Contents
-
-- [Week 1: Basics of music data](week-1.md)
+[Week 1: Basics of music data](week-1.md)
 
 ### Week 2
 Task 1: 
