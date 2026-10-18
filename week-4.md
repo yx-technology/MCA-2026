@@ -4,8 +4,7 @@
 
 #### Task 2:  
 <ins>Scatter plot</ins>
-![alt text](scatterplotofpitches.png)
-<img src="scatterplotofpitches.png" width="400">
+<img src="scatterplotofpitches.png" width="800">
   
 <ins>Pitch histogram</ins>
 ![alt text](pitchhistogram.png)
