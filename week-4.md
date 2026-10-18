@@ -6,7 +6,7 @@
 <ins>Scatter plot</ins>
 
 <p align="center">
-  <img src="score.png" width="700">
+  <img src="scatterplotofpitch.png" width="700">
 </p>
   
 <ins>Pitch histogram</ins>
