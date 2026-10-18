@@ -10,6 +10,9 @@
 </p>
   
 <ins>Pitch histogram</ins>
-![alt text](pitchhistogram.png)
+
+<p align="center">
+  <img src="pitchhistogram.png" width="700">
+</p>
 
 [← Back to home](./)
