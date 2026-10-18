@@ -3,10 +3,10 @@
 #### Task 1:  
 
 #### Task 2:  
-**Scatter plot**
+__Scatter plot__
 ![alt text](scatterplotofpitches.png)
   
-**Pitch histogram**
+__Pitch histogram__
 ![alt text](pitchhistogram.png)
 
 [← Back to home](./)
