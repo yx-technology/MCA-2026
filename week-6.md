@@ -1,4 +1,4 @@
-# Week 5
+# Week 6
 
 #### Task 1:  
 [Verovio - Because I Love You (Yoo Jae-Ha) with Metadata v2](verovio3.html)
@@ -17,7 +17,7 @@ After going through this process, I realised that licensing puts out a guideline
 
 #### Task 2:  
  
-
+[View Metadata here](metaRaw.html)
 
 [← Back to home](./)
 
