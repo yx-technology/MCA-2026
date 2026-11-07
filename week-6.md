@@ -10,7 +10,6 @@ The instructions hinted at using the [`<notesStmt>`](https://music-encoding.org/
 
 The decision of which Creative Commons license to include for my document, I searched through the [Creative Commons Search Portal](https://search.creativecommons.org/) to check the existing  licensing of the original published song. My only lead was on [YouTube](https://www.youtube.com/watch?v=6O8oM-vPRtY) and there was one licensing that looked like this ℗. Further research shows that this sign means [Phonographic Copyright](https://copyrightservice.co.uk/copyright/copyright_symbol). In sum, there are 2 specific license that one could attach to their music, first being the Music Composition Line ©, and second being the Song Recording Line ℗. In this case, ℗ meant that specifically, the original/main audio recording is protected under copyright. The Creative Commons (CC) licensing then sits on top of these specific licenses where both ℗ and CC are applicable to the piece of curated music.  
 
-Visually, this looks like this:  
 Layer 1: Original song copyright -> [ ℗ ]  
 Layer 2: Creative Commons copyright of this curated music -> [ Attribution ShareAlike (CC BY-SA) ]  
 
