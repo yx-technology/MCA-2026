@@ -1,79 +1,64 @@
 <!doctype html>
 <html lang="en">
   <!--Version 1.0-->
-
-  <head>
-    <meta charset="utf-8">
-    <title>My Piece</title>
-    <style>
-    html, body {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-    }
-    .header {
-        padding: 20px;
-    }
-    #app {
-        height: auto;
-        width: 100%;
-        position: absolute;
-        top: 160px;
-        bottom: 0;
-    }
-    </style>
+<head>
+  <meta charset="utf-8">
+  <title>My Piece</title>
+  <!--<link rel="stylesheet" href="css/CETEIcean.css" media="all" />-->
+  <link rel="stylesheet" href="css/style.css" media="all" />
+  <script src="js/CETEI.js"></script>
 </head>
-
-  <body>
-
-    <div class="header" id="meta"></div>
-    <div id="app">Verovio is loading...</div>
-    <script type="module">
+<body>
+  <div id="MEImeta"></div>
+  <div id="app" class="panel" style="border: 1px solid light gray; min-height: 800px;">Verovio is loading...</div>
+  <script type="module">
         import 'https://www.verovio.org/javascript/app/verovio-app.js';
         
-        const options = {
-            defaultView: 'responsive', // default is 'responsive', alternative is 'document'
-            defaultZoom: 3, // 0-7, default is 4
-            enableResponsive: true, // default is true
-            enableDocument: true // default is true
-        }
-        
-        // A MusicXML file
-        var file = 'Individual lab 2 - Because I Love You (Yoo Jae-Ha) v2.mei';
-        // A MEI file
-        //var file = 'https://www.verovio.org/editor/brahms.mei';
-        
-        const app = new Verovio.App(document.getElementById("app"), options);
-        fetch(file)
-            .then(function(response) {
-                return response.text();
-            })
-            .then(function(text) {
-                app.loadData(text);
-            });
+         const app = new Verovio.App(document.getElementById("app"), {});
+
+    // Load a file (MEI or MusicXML)
+    fetch("Individual lab 2 - Because I Love You (Yoo Jae-Ha) v2.mei")
+        .then(function(response) {
+            return response.text();
+        })
+        .then(function(text) {
+            app.loadData(text);
+        });
     </script>
-    
-   <script>
-      var xhr = new XMLHttpRequest()
-      xhr.open('GET', 'Individual lab 2 - Because I Love You (Yoo Jae-Ha) v2.mei') //  change this to the right file
-      xhr.send(null)
-      /* Deal with the response */
-      xhr.onreadystatechange = function () {
-        var DONE = 4
-        var OK = 200
-        if (xhr.readyState === DONE) {
-          if (xhr.status === OK) {
-            var parser = new DOMParser()
-            var meiDoc = parser.parseFromString(xhr.responseText,"text/xml")
-            document.querySelector("#meta").innerHTML += "<h1>" + meiDoc.querySelector("[*|id='title12345']").textContent + "</h1>" 
-            document.querySelector("#meta").innerHTML += "<p><strong>Composer:</strong> <a href=\"" + meiDoc.querySelector("[*|id='pers12345']").getAttribute('authURI') + "\">" + meiDoc.querySelector("[*|id='pers12345']").textContent + "</a></p>"
-            
-          }
-        }
+  <script>
+    // Get, parse, and show TEI data
+    var CETEIcean = new CETEI()
+    CETEIcean.getHTML5("data/example.mei", function(data) {
+      document.getElementById("TEI").appendChild(data)
+    })
+    // Get, parse and show MEI header data
+    var CETEI4MEI = new CETEI()
+    CETEI4MEI.addBehaviors({
+      namespaces: {
+        mei: "http://www.music-encoding.org/ns/mei"
       }
-    </script>
-    
-  </body>
-
+    })
+    CETEI4MEI.getHTML5("Individual lab 2 - Because I Love You (Yoo Jae-Ha) v2.mei", function(data) {
+      // get header
+      var meiHead = data.querySelector('mei-meiHead')
+      document.getElementById("MEImeta").appendChild(meiHead)
+    })
+    var vrvToolkit = new verovio.toolkit()
+    vrvToolkit.setOptions(options = {
+        pageHeight: 500,
+        pageWidth: 1000,
+        ignoreLayout: 1,
+        border: 20,
+        scale: 50,
+        adjustPageHeight: true
+    })
+    fetch("Individual lab 2 - Because I Love You (Yoo Jae-Ha) v2.mei").then(function( response ) {
+        response.text().then(function( data ) {
+          var svg = vrvToolkit.renderData(data, {})
+          document.getElementById('MEI').innerHTML = svg
+        })
+    })
+  </script>
+</body>
+<footer><p>Score rendering provided by <a href="http://www.verovio.org">Verovio</a>. Metadata rendered by <a href="https://github.com/TEIC/CETEIcean/"> CETEIcean</a>.</p></footer>
 </html>
-
