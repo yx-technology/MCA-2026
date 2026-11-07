@@ -19,5 +19,9 @@ After going through this process, I realised that licensing puts out a guideline
  
 [View Metadata here](metaRAW.html)
 
+#### Task 3:
+
+[View styled Metadata here - CSS](myMeta.html)
+
 [← Back to home](./)
 
