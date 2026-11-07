@@ -17,7 +17,7 @@ After going through this process, I realised that licensing puts out a guideline
 
 #### Task 2:  
  
-[View Metadata here](metaRaw.html)
+[View Metadata here](metaRAW.html)
 
 [← Back to home](./)
 
