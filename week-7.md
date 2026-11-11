@@ -5,7 +5,7 @@
 "Flying, Deep into the Night" - KyuHyun (2014)
 "The First Snow" - EXO (2013)
 
-|  | Flying, Deep into the Night | The First Snow | Eyes, Nose Lips |
+| Information |  |
 | ------------- | ------------- |
 | Title |  |
 | Artist |  |
