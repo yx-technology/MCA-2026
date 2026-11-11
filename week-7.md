@@ -5,14 +5,16 @@
 "Flying, Deep into the Night" - KyuHyun (2014)
 "The First Snow" - EXO (2013)
 
-Title
-Artist
-Composer
-Copyright info (if any)
-Genre
-Source
-File/audio format
-Number of channels
-Sample rate
-Bits per second
-Duration
+|  | Flying, Deep into the Night | The First Snow | Eyes, Nose Lips |
+| ------------- | ------------- |
+| Title |  |
+| Artist |  |
+| Composer |  |
+| Copyright information |  |
+| Genre |  |
+| Source |  |
+| File/ Audio format |  |
+| Number of channels |  |
+| Sample rate |  |
+| Bits per second |  |
+| Duration |  |
