@@ -7,4 +7,5 @@
 [Week 3: Encoding basics for notation](week-3.md)  
 [Week 4: Computational analytics of notated music](week-4.md)  
 [Week 5: Standards in curation](week-5.md)  
-[Week 6: Challenges to music curation](week-6.md)
+[Week 6: Challenges to music curation](week-6.md)  
+[Week 7: Music as sound](week-7.md)
