@@ -1,4 +1,4 @@
-# Week 7
+# Week 8
 
 #### Task 1:  
 "눈,코,입" (Eyes, Nose, Lips) – Taeyang (2014)
