@@ -1805,8 +1805,8 @@ tei-zone {
   /* Empty Rule Set */
 }
 
-mei-title[type="subordinate"] {
-  font-size: 18pt;
+mei-title[type="main"] {
+  font-size: 40pt;
   font-variant-caps: small-caps;
   margin-top: -0.5em;
 }
