@@ -5,7 +5,7 @@
 "Flying, Deep into the Night" - KyuHyun (2014)
 "The First Snow" - EXO (2013)
 
-| Song 1  |
+| Song 1  | |
 | ------------- | ------------- |
 | Title | "눈,코,입" (Eyes, Nose, Lips) |
 | Artist | Taeyang |
@@ -19,7 +19,7 @@
 | Bits per second | 2,822,400 |
 | Duration | 3 min 48 sec |
 
-| Song 2  |
+| Song 2  | |
 | ------------- | ------------- |
 | Title | "The First Snow" |
 | Artist |  |
@@ -33,7 +33,7 @@
 | Bits per second | 2,822,400 |
 | Duration | 2 min 23 sec |
 
-| Song 3  |
+| Song 3  | |
 | ------------- | ------------- |
 | Title | "Flying, Deep into the Night" |
 | Artist | Kyuhyun |
