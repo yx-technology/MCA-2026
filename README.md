@@ -10,3 +10,4 @@
 Week 6: Break  
 [Week 7: Challenges to music curation](week-7.md)  
 [Week 8: Music as sound](week-8.md)
+[Week 9: Analysing and extracting data from audio](week-9.md)
