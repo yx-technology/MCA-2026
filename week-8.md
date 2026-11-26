@@ -49,8 +49,11 @@
 #### Task 2:  
 <ins>Song 1: "눈,코,입" (Eyes, Nose, Lips)</ins>
 
+Click picture to see details:
 <p align="center">
   <a href="https://yx-technology.github.io/MCA-2026/TAEYANG.html">
     <img src="TAEYANG.png" height="300">
   </a>
 </p>
+
+[← Back to home](./)
