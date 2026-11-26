@@ -56,4 +56,22 @@ Click picture to see details:
   </a>
 </p>
 
+<ins>Song 2: "첫눈" (The First Snow)</ins>
+
+Click picture to see details:
+<p align="center">
+  <a href="https://yx-technology.github.io/MCA-2026/EXO.html">
+    <img src="EXO.png" height="300">
+  </a>
+</p>
+
+<ins>Song 3: "멈춰줘" (Hold me back)</ins>
+
+Click picture to see details:
+<p align="center">
+  <a href="https://yx-technology.github.io/MCA-2026/HEIZE.html">
+    <img src="HEIZE.png" height="300">
+  </a>
+</p>
+
 [← Back to home](./)
