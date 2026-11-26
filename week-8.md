@@ -75,7 +75,7 @@ Click picture to see details:
   </a>
 </p>
 
-<ins>Reflection</ins>
+<ins>Reflection</ins>  
 My choice of songs were based on Korean artistes, with a focus on the genre of R&B and Korean Ballad. My initial interactions with these songs are through Spotify, and to dowload the audio recording for these songs on the platform, it is nearly impossible without a form of payment. Even with Musescore, I gave up many song choices because I had to pay for the WAV file or that it is not available for download. My observation across the various weeks do indicate that this is a pattern. The monetisation of songs lead to a struggle with encoding and transcribing. Of course, this makes an artiste's work valuable and gives a musician a livelihood. This goes to show that the system is might not be built in consideration of future archival purposes. The caveat here is that these are more recent music pieces,which could indicate that the system has evolved to prioritise monetisation than the continuation and appreciation of music. However, technological improvements have also aid the production and recording of songs from individuals that might not have been able to access these tools without a large monetary investment into music training. 
 
 [← Back to home](./)
