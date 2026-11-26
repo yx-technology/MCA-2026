@@ -6,8 +6,8 @@
 #### Task 2:  
 Here, I used 3 elements that appeared in both MEI and MusicXML files for the song (Because I Love You).
 
-1. <note>
-Firstly, <note> in MusicXML is much longer than in MEI. Its attributes (default-x, default-y) only describes where MuseScore drew the note on the page. However, the actual music like the pitch, length, and staff, is spelled out in a long list of child elements that must follow a fixed order. MEI does the opposite where the musical information like the pitch, length, and staff are packed into attributes on a single line. 
+1. "<note>"
+Firstly, "<note>" in MusicXML is much longer than in MEI. Its attributes (default-x, default-y) only describes where MuseScore drew the note on the page. However, the actual music like the pitch, length, and staff, is spelled out in a long list of child elements that must follow a fixed order. MEI does the opposite where the musical information like the pitch, length, and staff are packed into attributes on a single line. 
 Next, their parents are different too. A MusicXML <note> can only sit directly inside a <measure>, and to show a chord it uses a little <chord/> tag which basically means "play this with the note before". In MEI, the notes sit inside a <chord> element, so the chord becomes one object and its length is written once instead of on every note.
 
 I think MEI is much easier to read, although if I were to transcribe the song across 2 platforms like in Musescore, it definitely helps for it to look the same instead of just sounding the same. Afterall, musicians could make up one of the users and therefore it would be hard to read the score to play it. 
