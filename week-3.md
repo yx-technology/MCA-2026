@@ -4,11 +4,22 @@
 [Verovio - Because I Love You (Yoo Jae-Ha)](verovio.html)
 
 #### Task 2:  
-MusicXML VS MEI  
-1. Key, time signature, and clef: MusicXML labels the items in seperate individual boxes while MEI compresses it into short tags on one line. MusicXML then positions the boxes into the bars, similar to how humans would read a score. Comparatively, MEI places it at the very beginning, dictating the key of the piece for everything else that follows after. Therefore, MusicXML requires the program to read the music to find the keys and clefs whereas it is instantly identifiable in an MEI file.
-2. Notes and chords: Similarly, MusicXML has individual labels detailing the pitch, length, voice, and staff for every single note. MEI shortens the code with tags, where a series of notes played at the same time are nested in a <chord> folder. So MEI avoids repetition when reading through the code while MusicXML has a more lengthy process as it reads from the beginning of the bar again.  
-3. Pedal and tempo: Pedal in MusicXML is wrapped in several layers of boxes with specific instructions on when the pedal is played while MEI uses one element <pedal> and tags to indicate when the pedal is being played. The timing of the pedal thus appears IN the list of notes while MEI states the exact beat <tstamp='1'> BESIDE the music. MEI becomes a more efficient manner of reading the music rather than just displaying the music.  
+Here, I used 3 elements that appeared in both MEI and MusicXML files for the song (Because I Love You).
 
-<p>Overall, MusicXML focuses on the visual aspect of a digital sheet music and mimics how a human would read the music while MEI prioritises efficiency and accuracy in the reproduction of the piece of music.</p>
+1. <note>
+Firstly, <note> in MusicXML is much longer than in MEI. Its attributes (default-x, default-y) only describes where MuseScore drew the note on the page. However, the actual music like the pitch, length, and staff, is spelled out in a long list of child elements that must follow a fixed order. MEI does the opposite where the musical information like the pitch, length, and staff are packed into attributes on a single line. 
+Next, their parents are different too. A MusicXML <note> can only sit directly inside a <measure>, and to show a chord it uses a little <chord/> tag which basically means "play this with the note before". In MEI, the notes sit inside a <chord> element, so the chord becomes one object and its length is written once instead of on every note.
+
+I think MEI is much easier to read, although if I were to transcribe the song across 2 platforms like in Musescore, it definitely helps for it to look the same instead of just sounding the same. Afterall, musicians could make up one of the users and therefore it would be hard to read the score to play it. 
+
+2. <staff>
+Apparently, this element has different meanings in MEI and MusicXML. In MusicXML, <staff> has no attributes and no children so its just a number inside a <note> or <direction>, labelling which staff the note belongs to. In MEI, <staff> is a container that sits inside <measure>, carries an attribute n="2", and holds <layer> elements, which then hold the notes. So the implication is that MusicXML has to tag every single left-hand note with "staff 2" and even use a <backup> element to rewind time to the start of the bar before writing the left hand. MEI just puts the left hand in its own box. 
+
+I think that MEI would then be more dependable in the recreation of the music information than MusicXML because the structure of MusicXML exposes it to many vulnerabilities. Should there be any mistakes in the code, the musiic will then throw the entire bar out of line. For a good safeguard, perhaps MEI and MusicXML could be used together to enable accurate visual transcribing while maintaining the integrity of the music.
+
+3. <pedal>
+In MusicXML, the <pedal> element is buried three layers deep (<measure> → <direction> → <direction-type> → <pedal>), and its attributes mostly describe whether it starts or stops and how it looks. In MEI, <pedal> sits directly inside <measure>, next to the staves, and its attributes state exactly which staff and which beat it applies to (staff="2", tstamp="1"). Neither has any children. What I found interesting is that MusicXML never states the timing, it is implied by where the pedal appears in the list of notes. So when Verovio converted my file, it had to work it out, and it chose tstamp="4.9" for every pedal release, which is basically a guess at "just before the barline". This shows that converting between formats is not simply copying. Some interpretation happens along the way. 
+
+This begs the question: how many of these small decisions add up over a whole piece? Would someone reading only the MEI file know that 4.9 was a guess and not what I meant? Although accuracy of music is a subjective topic, it also brings up the issue of accurate representation as the music is converted to other versions using different tools and formats.
 
 [← Back to home](./)
