@@ -6,7 +6,7 @@
 | ------------- | ------------- |
 | Title | "눈,코,입" (Eyes, Nose, Lips) |
 | Artist | Taeyang |
-| Composer |  Teddy Park, Rebecca Johnson, DEE.P |
+| Composer | Teddy Park, Rebecca Johnson, DEE.P |
 | Copyright information |  |
 | Genre | R&B |
 | Source | Musescore, YG Entertainment |
