@@ -50,5 +50,7 @@
 <ins>Song 1: "눈,코,입" (Eyes, Nose, Lips)</ins>
 
 <p align="center">
-  <a href="TAEYANG.png"><img src="TAEYANG.png" height="500"></a>
+  <a href="https://yx-technology.github.io/MCA-2026/taeyang.html">
+    <img src="TAEYANG.png" height="300">
+  </a>
 </p>
