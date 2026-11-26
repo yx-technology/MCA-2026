@@ -49,3 +49,7 @@
 #### Task 2:  
 <ins>Song 1: "눈,코,입" (Eyes, Nose, Lips)</ins>
 
+<p>
+  <img src="TAEYANG.png">
+</p>
+
