@@ -49,6 +49,6 @@
 #### Task 2:  
 <ins>Song 1: "눈,코,입" (Eyes, Nose, Lips)</ins>
 
-<p align="center">
-  <img src="TAEYANG.png" height="500">
-</p>
+<div style="overflow-x: auto; white-space: nowrap; max-width: 100%;">
+  <img src="TAEYANG.png" style="height: 500px; width: auto; max-width: none;">
+</div>
