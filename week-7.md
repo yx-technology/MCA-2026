@@ -22,7 +22,12 @@ Layer 2: Creative Commons copyright of this curated music -> [ Attribution Share
 
 _Whilst the writing and argument in this essay are my own and I take responsibility for all errors. The following is a catalogue of the tools and prompts that have been used to generate this content._  
 
-
+| AI declaration |  |
+| ------------- | ------------- |
+| Date | 27 Nov 2026 |
+| AI tool | Claude |
+| Prompt | Help me display my metadata with CSS and explain what have you done |
+| Result | Code was developed and placed into CSS file |
 
 <ins>Reflection</ins>  
 After going through this process, I realised that licensing puts out a guideline for users like myself in trying to encode music. This allows me to clearly understand how the publisher intends for their work to be used breaching any legal boundaries. However, our in-class disucssions revealed to me that licensing has many grey areas. Since music specifically is a sound vibration, copyright would be harder to enforce especially since there are many sources of music that we can turn to. Therefore, as an encoder or even as a musician, it is helpful to include educate ourselves on copyrights  to ensure that we do our best to honour the original artiste, composers, publishers etc. and to protect ourselves from potential lawsuits.
