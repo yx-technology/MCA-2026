@@ -1805,9 +1805,9 @@ tei-zone {
   /* Empty Rule Set */
 }
 
-/* ============ CREDITS PANEL ============ */
+/* ============ PANEL ============ */
 
-mei-filedesc {
+mei-meihead {
   display: flex;
   flex-direction: column;
   max-width: 34rem;
@@ -1819,55 +1819,53 @@ mei-filedesc {
   color: #333;
 }
 
-/* Remove these wrapper boxes from the layout so the items inside them can be reordered */
-mei-filedesc > mei-titlestmt,
-mei-filedesc > mei-titlestmt > mei-respstmt,
-mei-filedesc > mei-pubstmt,
-mei-filedesc > mei-pubstmt > mei-availability {
+/* Remove wrapper boxes so everything inside can be reordered */
+mei-filedesc, mei-titlestmt, mei-respstmt, mei-pubstmt, mei-publisher,
+mei-worklist, mei-work, mei-perfmedium, mei-perfreslist,
+mei-bibllist, mei-bibl {
   display: contents;
 }
 
-/* Running order, top to bottom */
-mei-filedesc > mei-titlestmt > mei-title                                     { order: 1; }
-mei-filedesc > mei-titlestmt > mei-respstmt > mei-persname                   { order: 2; }
-mei-filedesc > mei-sourcedesc                                                { order: 3; }
-mei-filedesc > mei-titlestmt > mei-respstmt > mei-persname[role="encoder"]   { order: 4; }
-mei-filedesc > mei-pubstmt > mei-date                                        { order: 5; }
-mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict              { order: 6; }
+/* Running order */
+mei-titlestmt > mei-title                    { order: 1; }
+mei-respstmt > mei-persname                  { order: 2; }   /* composer, arranger */
+mei-key                                      { order: 3; }
+mei-perfres                                  { order: 4; }
+mei-genre                                    { order: 5; }
+mei-publisher > mei-corpname                 { order: 6; }
+mei-date[type="release"]                     { order: 7; }
+mei-respstmt > mei-persname[role="encoder"]  { order: 8; }
+mei-date[type="encoding-date"]               { order: 9; }
+mei-bibl > mei-availability                  { order: 10; }
 
 
-/* ============ TITLES ============ */
+/* ============ TITLE ============ */
 
-mei-filedesc > mei-titlestmt > mei-title {
+mei-titlestmt > mei-title {
   display: block;
   text-align: center;
   color: #595b66;
-  font-size: 24pt;
-}
-
-mei-filedesc > mei-titlestmt > mei-title[type="main"] {
-  font-size: 40pt;
+  font-size: 34pt;
   font-variant-caps: small-caps;
-  line-height: 1.1;
+  line-height: 1.15;
 }
 
-mei-filedesc > mei-titlestmt > mei-title[type="subordinate"] {
-  font-size: 16pt;
-  font-variant-caps: small-caps;
-  letter-spacing: 0.05em;
-  margin-top: 0.2em;
+mei-titlepart[type="subordinate"] {
+  display: block;
+  font-size: 14pt;
+  letter-spacing: 0.06em;
+  margin-top: 0.5em;
 }
 
 
-/* ============ CREDIT ROWS (label | name) ============ */
+/* ============ CREDIT ROWS ============ */
 
-mei-filedesc > mei-titlestmt > mei-respstmt > mei-persname,
-mei-filedesc > mei-pubstmt > mei-date,
-mei-source > mei-titlestmt,
-mei-source > mei-titlestmt > mei-respstmt > mei-persname,
-mei-source > mei-pubstmt > mei-respstmt > mei-corpname,
-mei-source > mei-pubstmt > mei-date,
-mei-pubplace {
+mei-respstmt > mei-persname,
+mei-key,
+mei-perfres,
+mei-genre,
+mei-publisher > mei-corpname,
+mei-pubstmt > mei-date {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 1.5rem;
@@ -1875,14 +1873,12 @@ mei-pubplace {
   font-size: 12pt;
 }
 
-/* Label style */
-mei-filedesc > mei-titlestmt > mei-respstmt > mei-persname::before,
-mei-filedesc > mei-pubstmt > mei-date::before,
-mei-source > mei-titlestmt::before,
-mei-source > mei-titlestmt > mei-respstmt > mei-persname::before,
-mei-source > mei-pubstmt > mei-respstmt > mei-corpname::before,
-mei-source > mei-pubstmt > mei-date::before,
-mei-pubplace::before {
+mei-respstmt > mei-persname::before,
+mei-key::before,
+mei-perfres::before,
+mei-genre::before,
+mei-publisher > mei-corpname::before,
+mei-pubstmt > mei-date::before {
   align-self: start;
   padding-top: 0.3em;
   text-align: right;
@@ -1892,45 +1888,27 @@ mei-pubplace::before {
   color: #888;
 }
 
-/* Label text (the first line covers any role without its own label below) */
-mei-persname[role]::before                     { content: attr(role); }
-mei-persname[role="composer"]::before          { content: "Composer"; }
-mei-persname[role="encoder"]::before           { content: "Encoded by"; }
-mei-persname[role="dedicatee"]::before         { content: "Dedicated to"; }
-mei-persname[role="editor"]::before            { content: "Edited by"; }
-mei-filedesc > mei-pubstmt > mei-date::before  { content: "Date encoded"; }
-mei-source > mei-titlestmt::before             { content: "Source"; }
-mei-source > mei-pubstmt > mei-respstmt > mei-corpname::before { content: "Published by"; }
-mei-source > mei-pubstmt > mei-date::before    { content: "Published"; }
-mei-pubplace::before                           { content: "Location"; }
+mei-persname[role]::before             { content: attr(role); }
+mei-persname[role="composer"]::before  { content: "Composer"; }
+mei-persname[role="arranger"]::before  { content: "Arranger"; }
+mei-persname[role="encoder"]::before   { content: "Encoded by"; }
+mei-key::before                        { content: "Key"; }
+mei-perfres::before                    { content: "Instrument"; }
+mei-genre::before                      { content: "Genre"; }
+mei-publisher > mei-corpname::before   { content: "Record label"; }
+mei-date[type="release"]::before       { content: "Released"; }
+mei-date[type="encoding-date"]::before { content: "Date encoded"; }
 
 /* Gaps between groups */
-mei-filedesc > mei-titlestmt > mei-respstmt > mei-persname[role="composer"] { margin-top: 2rem; }
-mei-filedesc > mei-sourcedesc { display: block; margin-top: 1.5rem; }
-mei-filedesc > mei-titlestmt > mei-respstmt > mei-persname[role="encoder"]  { margin-top: 1.5rem; }
+mei-respstmt > mei-persname[role="composer"]  { margin-top: 2rem; }
+mei-key                                       { margin-top: 1.25rem; }
+mei-publisher > mei-corpname                  { margin-top: 1.25rem; }
+mei-respstmt > mei-persname[role="encoder"]   { margin-top: 1.25rem; }
 
 
-/* ============ SOURCE BLOCK ============ */
+/* ============ LICENCE FOOTER ============ */
 
-mei-sourcedesc > mei-source,
-mei-source > mei-pubstmt,
-mei-source > mei-pubstmt > mei-respstmt {
-  display: block;
-}
-
-/* Label in the left column, source titles stacked in the right column */
-mei-source > mei-titlestmt::before            { grid-column: 1; }
-mei-source > mei-titlestmt > mei-title        { grid-column: 2; }
-mei-source > mei-titlestmt > mei-respstmt     { grid-column: 1 / -1; }
-
-mei-source > mei-titlestmt > mei-title[type="uniform"]          { font-style: italic; }
-mei-source > mei-titlestmt > mei-title[type="uniform"]::before  { content: "("; }
-mei-source > mei-titlestmt > mei-title[type="uniform"]::after   { content: ")"; }
-
-
-/* ============ USAGE NOTE (footer) ============ */
-
-mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict {
+mei-bibl > mei-availability {
   display: block;
   margin-top: 2rem;
   text-align: center;
@@ -1942,15 +1920,9 @@ mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict {
 
 /* ============ HIDDEN ============ */
 
-mei-filedesc > mei-pubstmt > mei-respstmt,
-mei-pubstmt > mei-address,
-mei-seriesstmt,
-mei-source > mei-identifier,
-mei-source > mei-physdesc,
-mei-source > mei-titlestmt > mei-respstmt > mei-persname[role="composer"],
-mei-encodingdesc,
-mei-workdesc,
-mei-revisiondesc {
+/* These titles repeat the main title */
+mei-work > mei-title,
+mei-bibl > mei-title {
   display: none;
 }
 
