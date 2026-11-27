@@ -52,9 +52,26 @@
 
 <ins>Song 1: "눈,코,입" (Eyes, Nose, Lips)</ins>
 
-<audio controls>
-  <source src="TAEYANG.wav" type="audio/wav">
-</audio>
+<button class="play-btn" onclick="togglePlay(this)">▶ Play</button>
+<audio id="TAEYANG" src="TAEYANG (MP3).mp3"></audio>
+
+<style>
+  .play-btn {
+    background: #1DB954; color: white; border: none;
+    padding: 12px 24px; border-radius: 999px;
+    font-size: 16px; font-weight: 600; cursor: pointer;
+  }
+  .play-btn:hover { opacity: 0.85; }
+</style>
+
+<script>
+  function togglePlay(btn) {
+    const a = document.getElementById('track');
+    if (a.paused) { a.play(); btn.textContent = '⏸ Pause'; }
+    else { a.pause(); btn.textContent = '▶ Play'; }
+    a.onended = () => btn.textContent = '▶ Play';
+  }
+</script>
 
 <p align="center">
   <a href="https://yx-technology.github.io/MCA-2026/TAEYANG.html">
