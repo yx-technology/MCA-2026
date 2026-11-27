@@ -112,4 +112,34 @@ Verse
   </tr>
 </table>
 
+Bridge
+
+<table>
+  <tr>
+    <th>Spectogram</th>
+    <th>MFCC</th>
+    <th>Chromogram</th>
+  </tr>
+  <tr>
+    <td><img src="Histogram - Bridge (Spectogram).png" width="320" height="320"></td>
+    <td><img src="Histogram - Bridge (MFCC).png" width="320" height="320"></td>
+    <td><img src="Histogram - Bridge (Chromogram).png" width="320" height="320"></td>
+  </tr>
+</table>
+
+Chorus
+
+<table>
+  <tr>
+    <th>Spectogram</th>
+    <th>MFCC</th>
+    <th>Chromogram</th>
+  </tr>
+  <tr>
+    <td><img src="Histogram - Chorus (Spectogram).png" width="320" height="320"></td>
+    <td><img src="Histogram - Chorus (MFCC).png" width="320" height="320"></td>
+    <td><img src="Histogram - Chorus (Chromogram).png" width="320" height="320"></td>
+  </tr>
+</table>
+
 [← Back to home](./)
