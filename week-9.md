@@ -106,7 +106,7 @@ Verse
     <th>Chromogram</th>
   </tr>
   <tr>
-    <td><img src="Histogram - Verse (Spectogram).png" width="250" height="250"></td>
+    <td><img src="Histogram - Verse (Spectogram).png" ></td>
     <td><img src="Histogram - Verse (MFCC).png" width="250" height="250"></td>
     <td><img src="Histogram - Verse (Chromogram).png" width="250" height="250"></td>
   </tr>
