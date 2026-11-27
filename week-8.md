@@ -52,11 +52,6 @@
 
 <ins>Song 1: "눈,코,입" (Eyes, Nose, Lips)</ins>
 
-<audio controls width="300" height="50">
-  <source src="TAEYANG (MP3).mp3" type="audio/mpeg">
-  Your browser does not support the video tag.
-</audio>
-
 <p align="center">
   <a href="https://yx-technology.github.io/MCA-2026/TAEYANG.html">
     <img src="TAEYANG.png" height="300">
