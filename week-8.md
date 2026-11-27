@@ -7,7 +7,7 @@
 | Title | "눈,코,입" (Eyes, Nose, Lips) |
 | Artist | Taeyang |
 | Composer | Teddy Park, Rebecca Johnson, DEE.P |
-| Copyright information |  |
+| Copyright information | © / ℗ |
 | Genre | R&B |
 | Source | Musescore, YG Entertainment |
 | File/ Audio format | WAV audio |
@@ -21,7 +21,7 @@
 | Title | "첫눈" (The First Snow) |
 | Artist | EXO |
 | Composer | Kenzie, Kim Jeong-bae |
-| Copyright information |  |
+| Copyright information | © |
 | Genre | Korean ballad, R&B |
 | Source | Musescore, SM Entertainment |
 | File/ Audio format | WAV audio |
@@ -35,7 +35,7 @@
 | Title | "멈춰줘" (Hold me back) |
 | Artist | Heize |
 | Composer | Nam Hye-seung |
-| Copyright information |  |
+| Copyright information | © / ℗ |
 | Genre | Korean ballad |
 | Source | Musescore, SORI NARLY |
 | File/ Audio format | WAV audio |
