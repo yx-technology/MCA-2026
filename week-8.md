@@ -52,7 +52,7 @@
 
 <ins>Song 1: "눈,코,입" (Eyes, Nose, Lips)</ins>
 
-<audio controls src="audio/TAEYANG.mp3"></audio>
+<audio controls src="audio/TAEYANG (MP3).mp3"></audio>
 
 <p align="center">
   <a href="https://yx-technology.github.io/MCA-2026/TAEYANG.html">
