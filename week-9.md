@@ -12,21 +12,21 @@
   </a>
 </p>
 
-Mel Frequency Cepstral Coefficients (MFCC)
+###### Mel Frequency Cepstral Coefficients (MFCC)
 <p align="center">
   <a href="https://yx-technology.github.io/MCA-2026/Verse.html">
     <img src="Verse (MFCC).png" height="300">
   </a>
 </p>
 
-Chromogram
+###### Chromogram
 <p align="center">
   <a href="https://yx-technology.github.io/MCA-2026/Verse.html">
     <img src="Verse (Chromogram).png" height="300">
   </a>
 </p>
 
-Waveform
+###### Waveform
 <p align="center">
   <a href="https://yx-technology.github.io/MCA-2026/Verse.html">
     <img src="Verse (Waveform).png" height="300">
@@ -35,7 +35,7 @@ Waveform
 
 <ins>Bridge</ins>
 
-Spectogram  
+###### Spectogram  
 <p align="center">
   <a href="https://yx-technology.github.io/MCA-2026/Bridge.html">
     <img src="Bridge (Spectogram).png" height="300">
