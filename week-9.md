@@ -94,5 +94,22 @@
 </p>
 
 #### Task 2:  
- 
+
+<ins>Histogram</ins>
+
+Verse
+
+<table>
+  <tr>
+    <th>Spectogram</th>
+    <th>MFCC</th>
+    <th>Chromogram</th>
+  </tr>
+  <tr>
+    <td><img src="Histogram - Verse (Spectogram).png" width="250" height="250"></td>
+    <td><img src="Histogram - Verse (MFCC).png" width="250" height="250"></td>
+    <td><img src="Histogram - Verse (Chromogram).png" width="250" height="250"></td>
+  </tr>
+</table>
+
 [← Back to home](./)
