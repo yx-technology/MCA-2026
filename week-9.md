@@ -5,7 +5,7 @@
 
 <ins>Verse</ins>
 
-Spectogram  
+###### Spectogram  
 <p align="center">
   <a href="https://yx-technology.github.io/MCA-2026/Verse.html">
     <img src="Verse (Spectogram).png" height="300">
