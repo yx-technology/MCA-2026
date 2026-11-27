@@ -106,9 +106,9 @@ Verse
     <th>Chromogram</th>
   </tr>
   <tr>
-    <td><img src="Histogram - Verse (Spectogram).png" width="300" height="300"></td>
-    <td><img src="Histogram - Verse (MFCC).png" width="300" height="300"></td>
-    <td><img src="Histogram - Verse (Chromogram).png" width="300" height="300"></td>
+    <td><img src="Histogram - Verse (Spectogram).png" width="320" height="320"></td>
+    <td><img src="Histogram - Verse (MFCC).png" width="320" height="320"></td>
+    <td><img src="Histogram - Verse (Chromogram).png" width="320" height="320"></td>
   </tr>
 </table>
 
