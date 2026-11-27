@@ -53,8 +53,7 @@
 <ins>Song 1: "눈,코,입" (Eyes, Nose, Lips)</ins>
 
 <audio controls>
-    <source src="TAEYANG.wav" type="audio/mpeg">
-    Your browser does not support the audio element.
+  <source src="TAEYANG.wav" type="audio/wav">
 </audio>
 
 <p align="center">
