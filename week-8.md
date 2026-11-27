@@ -48,9 +48,10 @@
 2. Background information was sourced from many different places like Wikipedia and Spotify credits. Ideally, these metadata would be available from a credible source like the production label but not all songs have these readily available. Wikipedia is not always accurate as it allows members of the public to change the information of the songs and that would lead to a misrepresentation in my metadata. Another reliable source could be Melon music, a Korean music app that is available in Korea and presents in korean. As a non-korean, I find it difficult to access the website on top of reading the information despite it being able to translate into English. Some key information could be lost in translation.
 
 #### Task 2:  
+> Click picture to see details
+
 <ins>Song 1: "눈,코,입" (Eyes, Nose, Lips)</ins>
 
-Click picture to see details:
 <p align="center">
   <a href="https://yx-technology.github.io/MCA-2026/TAEYANG.html">
     <img src="TAEYANG.png" height="300">
@@ -59,7 +60,6 @@ Click picture to see details:
 
 <ins>Song 2: "첫눈" (The First Snow)</ins>
 
-Click picture to see details:
 <p align="center">
   <a href="https://yx-technology.github.io/MCA-2026/EXO.html">
     <img src="EXO.png" height="300">
@@ -68,7 +68,6 @@ Click picture to see details:
 
 <ins>Song 3: "멈춰줘" (Hold me back)</ins>
 
-Click picture to see details:
 <p align="center">
   <a href="https://yx-technology.github.io/MCA-2026/HEIZE.html">
     <img src="HEIZE.png" height="300">
