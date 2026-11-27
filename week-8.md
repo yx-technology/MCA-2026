@@ -67,7 +67,7 @@
   <a href="https://yx-technology.github.io/MCA-2026/EXO.html">
     <img src="EXO.png" height="300">
   </a>
-  <a href="https://yx-technology.github.io/MCA-2026/TAEYANG.html">
+  <a href="https://yx-technology.github.io/MCA-2026/EXO.html">
     <img src="EXO (Waveform).png" height="300">
   </a>
 </p>
@@ -78,7 +78,7 @@
   <a href="https://yx-technology.github.io/MCA-2026/HEIZE.html">
     <img src="HEIZE.png" height="300">
   </a>
-  <a href="https://yx-technology.github.io/MCA-2026/TAEYANG.html">
+  <a href="https://yx-technology.github.io/MCA-2026/HEIZE.html">
     <img src="HEIZE (Waveform).png" height="300">
   </a>
 </p>
