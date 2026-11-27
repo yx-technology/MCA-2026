@@ -1,6 +1,6 @@
 # Week 9
 
-> Click picture to see details
+> Click picture to expand
 
 #### Task 1:  
 
