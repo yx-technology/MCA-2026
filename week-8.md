@@ -2,7 +2,7 @@
 
 #### Task 1:  
 
-| Song 1  | |
+| Song 1  |  |
 | ------------- | ------------- |
 | Title | "눈,코,입" (Eyes, Nose, Lips) |
 | Artist | Taeyang |
@@ -51,6 +51,11 @@
 > Click picture to see details
 
 <ins>Song 1: "눈,코,입" (Eyes, Nose, Lips)</ins>
+
+<audio controls>
+    <source src="TAEYANG.wav" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
 
 <p align="center">
   <a href="https://yx-technology.github.io/MCA-2026/TAEYANG.html">
