@@ -4,6 +4,4 @@
 
 #### Task 2:  
  
-[View Metadata here](metaRAW.html)
-
 [← Back to home](./)
