@@ -1,7 +1,8 @@
 # Week 9
 
-#### Task 1:  
 > Click picture to see details
+
+#### Task 1:  
 
 <ins>Verse</ins>
 
