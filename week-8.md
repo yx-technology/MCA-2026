@@ -54,6 +54,9 @@
 
 <p align="center">
   <a href="https://yx-technology.github.io/MCA-2026/TAEYANG.html">
+    <img src="TAEYANG (Waveform).png" height="300">
+  </a>
+  <a href="https://yx-technology.github.io/MCA-2026/TAEYANG.html">
     <img src="TAEYANG.png" height="300">
   </a>
 </p>
