@@ -1,7 +1,7 @@
 # Week 7
 
 #### Task 1:  
-[Verovio - Because I Love You (Yoo Jae-Ha) with Metadata v2](verovio3.html)
+[Verovio - Because I Love You (Yoo Jae-Ha) with Metadata Updated](verovio3.html)
 
 Last week, I already included the bibliography section to include the [`<genre>`](https://music-encoding.org/guidelines/v5/elements/genre.html)  element as part of the Metadata. This week, this move proved to be a right decision as it enabled me to add on the [`<availability>`](https://music-encoding.org/guidelines/v5/elements/availability.html)  section without editing my entire Metadata, confirming that by properly structuring and using specific elements, any future edits would be much easier.
 
